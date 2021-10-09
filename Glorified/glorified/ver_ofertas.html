@@ -1,593 +1,203 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 
+<head>
+    <title>Juventra</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-	<head>
-		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		
-		<!-- SITE TITLE -->
-		<title>Juventra</title>
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-		
-		<!-- Latest Bootstrap min CSS -->
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">	
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap" rel="stylesheet">		
-		<!-- Font Awesome CSS -->
-		<link rel="stylesheet" href="assets/fonts/font-awesome.css">
-		<!--magnific-popup Css-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-		<!--animate Css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
-		<!--slick Css-->
-        <link rel="stylesheet" href="assets/css/slick.css">
-		<!-- Style CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="assets/css/responsive.css">
-		
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't gallery if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    <!--magnific-popup Css-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--animate Css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--slick Css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-	<body>
+    <script src="assets/js/Header.js"></script>
+    <script src="assets/js/Footer.js"></script>
+</head>
 
-		<!-- Page Wrapper -->
-		<div class="page-wrapper">
-		
-			<!-- START PRELOADER -->
-			<div class="atf-preloader">
-				<div class="atf-status">
-					<div class="atf-status-mes"></div>
-				</div>
-			</div> 
-			<!-- END PRELOADER -->	
-			
-			<!-- START back-to-top -->	
-			<button class="atf-scroll-top atf-back-to-top" data-targets="html">
-				<i class="fa fa-angle-up atf-scrollup-icon"></i>
-			</button>
-			<!-- END back-to-top-->	
-			<div class="body-overlay" id="body-overlay"></div>
-			
-			<!-- search popup area start -->
-			<div class="search-popup" id="search-popup">
-				<form action="http://themesfamily/tm/majid/index.html" class="search-form">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search.....">
-					</div>
-					<button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-				</form>
-			</div>
-			<!-- //. search Popup -->
-		
-			<!-- Start Header Section -->
-			<header class="atf-site-header atf-style1 atf-sticky-header">
-				<div class="atf-top-header">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-8 col-md-8">
-								<div class="atf-top-header-in wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-									<ul class="atf-top-header-list">
-										<li><i class="fas fa-envelope"></i>Email: <a href="#">example@gmail.com</a></li>
-										<li><i class="fas fa-phone-volume"></i>Contact: <a href="#">000-1112-2221 </a></li>
-									</ul>
-								</div>
-							</div><!--- END COL -->
-							<div class="col-lg-4 col-md-4">
-								<div class="nav-right-part nav-right-part-desktop">
-									<ul>
-										<li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
-										<li class=""><a class="login-btn" href="#">Login</a></li>
-										<li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li>
-									</ul>
-								</div>
-							</div><!--- END COL -->
-						</div><!--- END ROW -->
-					</div><!--- END CONTAINER -->
-				</div><!--- END TOP HEADER -->
-				
-				<div class="atf-main-header">
-					<div class="container">
-						<div class="atf-main-header-in">
-							<div class="atf-main-header-left">
-								<a class="atf-site-branding atf-white-logo" href="index.html"><img src="assets/img/logoj.png" alt="Logo"></a>
-							</div>
+<body>
+    <div class="page-wrapper">
+        <div id="header"></div>
 
-							<div class="nav-right-part nav-right-part-mobile">
-								<ul>
-									<li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
-									<li class=""><a class="login-btn" href="#">Login</a></li>
-									<li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li>
-								</ul>
-							</div>
+        <section id="contact" class="atf-contact-area atf-section-padding">
+            <div class="container">
+                <div class="contact mr-lg-5">
+                    <h4 align="center">Ofertas</h4>
+                </div>
+                <div class="atf-slider atf-style2">
+                    <div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+                        data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3"
+                        data-lg-slides="3" data-add-slides="3">
+                        <div class="slick-wrapper slick-initialized slick-slider slick-dotted">
+                            <div class="slick-list draggable">
+                                <div class="slick-track" style="opacity: 1; width: 6494px; transform: translate3d(-1528px, 0px, 0px);">
+                                    <div class="slick-slide" data-slick-index="-3" aria-hidden="true" style="width: 382px;">                                        
+                                    </div>
+                                    <div class="slick-slide" data-slick-index="-2" aria-hidden="true" style="width: 382px;">
+                                    </div>
+                                    <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 382px;">
+                                    </div>
+                                    <div class="slick-slide" data-slick-index="0" aria-hidden="true" role="tabpanel" id="slick-slide00" tabindex="-1" aria-describedby="slick-slide-control00" style="width: 382px;">
+                                    </div>
+                                    <div class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" role="tabpanel" id="slick-slide01" tabindex="-1" aria-describedby="slick-slide-control01" style="width: 382px;">
+                                        <div>
+                                            <div class="slick-slide-in" style="width: 100%; display: inline-block;">
+                                                <div class="atf-post-slide">
+                                                    <div class="atf-post-pic" style="height: 45px;">
+                                                        <ul class="atf-post-category">
+                                                            <li><a href="">18 Sep</a></li>
+                                                            <li><a href="">2021</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="atf-post-header">
+                                                        <ul class="atf-post-bar">
+                                                            <li><i class="fa fa-user"></i><a href="">Admin</a></li>
+                                                            <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                                            <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                                        </ul>
+                                                        <h4 class="atf-post-title">
+                                                            <a href="ver_ofertas.html">Solicito carpintero</a>
+                                                        </h4>
+                                                    </div>
+                                                    <p class="atf-post-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        Maecenas gravida nulla eu massa efficitur.
+                                                    </p>
+                                                    <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                                        <a href="detalle_oferta_c.html" class="atf-themes-btn">Ver más
+                                                            <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" role="tabpanel" id="slick-slide02" tabindex="-1" aria-describedby="slick-slide-control02" style="width: 382px;">
+                                        <div class="slick-slide-in" style="width: 100%; display: inline-block;">
+                                            <div class="atf-post-slide">
+                                                <div class="atf-post-pic" style="height: 45px;">
+                                                    <ul class="atf-post-category">
+                                                        <li><a href="">20 Sep</a></li>
+                                                        <li><a href="">2021</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="atf-post-header">
+                                                    <ul class="atf-post-bar">
+                                                        <li><i class="fa fa-user"></i><a href="">Admin</a></li>
+                                                        <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                                        <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                                    </ul>
+                                                    <h4 class="atf-post-title">
+                                                        <a href="ver_ofertas.html">Jardinero fines de semana</a>
+                                                    </h4>
+                                                </div>
+                                                <p class="atf-post-description">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Maecenas gravida nulla eu massa efficitur.
+                                                </p>
+                                                <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                                    <a href="detalle_oferta_c.html" class="atf-themes-btn">Ver más
+                                                        <i class="fa fa-angle-right atf-blogs-btn"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" role="tabpanel" id="slick-slide03" tabindex="-1" aria-describedby="slick-slide-control03" style="width: 382px;">
+                                        <div class="slick-slide-in" style="width: 100%; display: inline-block;">
+                                            <div class="atf-post-slide">
+                                                <div class="atf-post-pic" style="height: 45px;">
+                                                    <ul class="atf-post-category" >
+                                                        <li><a href="">22 Sep</a></li>
+                                                        <li><a href="">2021</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="atf-post-header">
+                                                    <ul class="atf-post-bar">   
+                                                        <li><i class="fa fa-user"></i><a href="">Admin</a></li>
+                                                        <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                                        <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                                    </ul>
+                                                    <h4 class="atf-post-title">
+                                                        <a href="ver_oferta.html">Pintor de fachadas</a>
+                                                    </h4>
+                                                </div>
+                                                <p class="atf-post-description">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Maecenas gravida nulla eu massa efficitur.
+                                                </p>
+                                                <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                                    <a href="detalle_oferta_c.html" class="atf-themes-btn">Ver más
+                                                        <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="pagination atf-style1 atf-flex atf-hidden">
+                        <ul class="slick-dots" role="tablist" style="display: flex;">
+                            <li class="" role="presentation">
+                                <button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3" tabindex="-1">1</button>
+                            </li>
+                            <li role="presentation" class="slick-active"><button type="button" role="tab"
+                                    id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3"
+                                    tabindex="0" aria-selected="true">2</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02"
+                                    aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 3" tabindex="-1">4</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control04"
+                                    aria-controls="slick-slide04" aria-label="5 of 3" tabindex="-1">5</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control05"
+                                    aria-controls="slick-slide05" aria-label="6 of 3" tabindex="-1">6</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control06"
+                                    aria-controls="slick-slide06" aria-label="7 of 3" tabindex="-1">7</button></li>
+                        </ul>
+                    </div>--> <!-- If dont need Pagination then add class .atf-hidden -->
+                </div>
+            </div>
+        </section>
 
-							<div class="atf-main-header-right">
-								<div class="atf-nav">
-									<ul class="atf-nav-list atf-onepage-nav">
-										<li><a href="index.html">Home</a>
-										</li>
-										<li class="menu-item-has-children"><a href="#" class="atf-smooth-move">Page<i class="fa fa-chevron-down ml-2"></i></a>
-											<ul>
-												<li><a href="contact.html">Contact us</a></li>
-												<li><a href="error.html">404</a></li>
-												<li><a href="blog.html">Blog Grid</a></li>
-											</ul>
-										</li>
-										<li class="menu-item-has-children"><a href="#" class="atf-smooth-move">Gestión<i class="fa fa-chevron-down ml-2"></i></a>
-											<ul>
-												<li><a href="crear_usuario.html">Usuario</a></li>
-												<li><a href="crear_oferta.html">Ofertas</a></li>
-												<li><a href="crear_categoria.html">Categorías</a></li>
-											</ul>
-										</li>
-										<!-- <li><a href="https://www.templatemonster.com/website-templates/al-majid-website-template-152091.html?_gl=1*1ley0u6*_ga*NDMyOTM1NTcxLjE2MTAxOTczNjQ.*_ga_FTPYEGT5LY*MTYxMDI4NzgyNS4zLjAuMTYxMDI4NzgzMS41NA..&_ga=2.145900727.2005536284.1610210101-432935571.1610197364">Pro Version</a></li> -->
-										<li><a href="login.html">Ingreso</a></li>
-									</ul><!--- END NAV -->
-								</div>
-							</div><!--- END MAIN HEADER RIGHT -->
-						</div>
-					</div><!--- END CONTAINER -->
-				</div><!--- END MAIN HEADER -->
-			</header>
-			<!-- End Header Section -->
-			
+        <div id="footer"></div>
+    </div>
 
-			<div class="atf-content clearfix">
-				<div class="atf-page-heading atf-size-md atf-dynamic-bg" data-stellar-background-ratio="0.3" style="background-image: url(assets/img/blog/3.jpg); background-size:cover; background-position: center center;">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-xl-7 col-md-6 col-12">
-								<div class="atf-page-heading-in text-center">
-									<h1 class="atf-page-heading-title">Any Help For This Customer </h1>
-									<div class="atf-post-label">
-										<span><a href="index1.html">Home</a></span>
-										<span>Contact Us</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- .atf-page-heading -->
+    <!-- Latest jQuery -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Latest compiled and minified Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <!-- modernizer JS -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <!-- magnific-popup js -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- stellar js -->
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <!-- slick js -->
+    <script src="assets/js/slick.js"></script>
+    <!-- countdown js -->
+    <script src="assets/js/jquery.countdown.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- ajaxchimp js -->
+    <script src="assets/js/ajaxchimp.min.js"></script>
+    <!-- form-contact js -->
+    <script src="assets/js/form-contact.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
 
-				<!-- OFERTAS SECTION START-->
-				<div class="atf-section-padding atf-blog-area atf-blog-grid-area">			
-					<div class="container">
-						<div class="contact mr-lg-5">
-							<h4 align="center">Ofertas</h4>
-						</div>
-						<div class="atf-slider atf-style2">
-							<div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
-								<div class="slick-wrapper slick-initialized slick-slider slick-dotted"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 6494px; transform: translate3d(-1528px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" role="tabpanel" id="slick-slide00" tabindex="-1" aria-describedby="slick-slide-control00" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" role="tabpanel" id="slick-slide01" tabindex="-1" aria-describedby="slick-slide-control01" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<!-- <img src="assets/img/blog/3.jpg" alt=""> -->
-												<ul class="atf-post-category">
-													<li><a href="#">18 Sep</a></li>
-													<li><a href="#">2021</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Solicito carpintero</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="detalle_oferta_e.html" class="atf-themes-btn">Ver más<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" role="tabpanel" id="slick-slide02" tabindex="-1" aria-describedby="slick-slide-control02" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<!-- <img src="assets/img/blog/3.jpg" alt=""> -->
-												<ul class="atf-post-category">
-													<li><a href="#">20 Sep</a></li>
-													<li><a href="#">2021</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Jardinero fines de semana</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="detalle_oferta_e.html" class="atf-themes-btn">Ver más<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div></div></div><div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" role="tabpanel" id="slick-slide03" tabindex="-1" aria-describedby="slick-slide-control03" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<!-- <img src="assets/img/blog/3.jpg" alt=""> -->
-												<ul class="atf-post-category">
-													<li><a href="#">22 Sep</a></li>
-													<li><a href="#">2021</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="#">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="#">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Pintor de fachadas</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="detalle_oferta_e.html" class="atf-themes-btn">Ver más<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" role="tabpanel" id="slick-slide04" tabindex="-1" aria-describedby="slick-slide-control04" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" role="tabpanel" id="slick-slide05" tabindex="-1" aria-describedby="slick-slide-control05" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" role="tabpanel" id="slick-slide06" tabindex="-1" aria-describedby="slick-slide-control06" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="10" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="11" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="12" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div><div class="slick-slide slick-cloned" data-slick-index="13" aria-hidden="true" style="width: 382px;"><div><div class="slick-slide-in" style="width: 100%; display: inline-block;">
-										
-									</div></div></div></div></div></div><!-- .slick-slide-Wrapper -->
-							</div><!-- .slick-container -->
-							
-							<div class="pagination atf-style1 atf-flex atf-hidden"><ul class="slick-dots" role="tablist" style="display: flex;"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3" tabindex="-1">1</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3" tabindex="0" aria-selected="true">2</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 3" tabindex="-1">4</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control04" aria-controls="slick-slide04" aria-label="5 of 3" tabindex="-1">5</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control05" aria-controls="slick-slide05" aria-label="6 of 3" tabindex="-1">6</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control06" aria-controls="slick-slide06" aria-label="7 of 3" tabindex="-1">7</button></li></ul></div> <!-- If dont need Pagination then add class .atf-hidden -->
-							<div class="swipe-arrow atf-hidden"> <!-- If dont need navigation then add class .atf-hidden -->
-								<div class="slick-arrow-left slick-arrow" style="display: flex;"><i class="fa fa-chevron-left"></i></div>
-								<div class="slick-arrow-right slick-arrow" style="display: flex;"><i class="fa fa-chevron-right"></i></div>
-							</div>
-						</div><!-- .atf-slider -->
-					</div><!-- .container -->	
-					
-					<!--  
-						<div class="row clearfix">
-							<div class="col-xl-12 col-lg-12 col-12">
-								<div class="row">
-									<div class="col-lg-6 col-md-6 col-12">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<img src="assets/img/blog/3.jpg" alt="">
-												<ul class="atf-post-category">
-													<li><a href="#">29 Dec,</a></li>
-													<li><a href="#">2020</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Best Laptop Discount 30%..</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="blog-details.html" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 col-md-6 col-12">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<img src="assets/img/blog/3.jpg" alt="">
-												<ul class="atf-post-category">
-													<li><a href="#">29 Dec,</a></li>
-													<li><a href="#">2020</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Best Laptop Discount 30%..</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="blog-details.html" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div>
-									
-									
-									<div class="col-lg-6 col-md-6 col-12">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<img src="assets/img/blog/3.jpg" alt="">
-												<ul class="atf-post-category">
-													<li><a href="#">29 Dec,</a></li>
-													<li><a href="#">2020</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Best Laptop Discount 30%..</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="blog-details.html" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 col-md-6 col-12">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<img src="assets/img/blog/3.jpg" alt="">
-												<ul class="atf-post-category">
-													<li><a href="#">29 Dec,</a></li>
-													<li><a href="#">2020</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Best Laptop Discount 30%..</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="blog-details.html" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div>
-									
-									
-									<div class="col-lg-6 col-md-6 col-12">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<img src="assets/img/blog/3.jpg" alt="">
-												<ul class="atf-post-category">
-													<li><a href="#">29 Dec,</a></li>
-													<li><a href="#">2020</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Best Laptop Discount 30%..</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="blog-details.html" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 col-md-6 col-12">
-										<div class="atf-post-slide">
-											<div class="atf-post-pic">
-												<img src="assets/img/blog/3.jpg" alt="">
-												<ul class="atf-post-category">
-													<li><a href="#">29 Dec,</a></li>
-													<li><a href="#">2020</a></li>
-												</ul>
-											</div>
-											<div class="atf-post-header">
-												<ul class="atf-post-bar">
-													<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-													<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-													<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-												</ul>
-												<h4 class="atf-post-title">
-													<a href="blog-details.html">Best Laptop Discount 30%..</a>
-												</h4>
-											</div>
-											<p class="atf-post-description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-											</p>
-											<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-												<a href="blog-details.html" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-											</div>
-										</div>
-									</div>
-									
-									
-									
-								</div>
-							</div>
-						</div>
-					</div> -->
-                    <!--- END CONTAINER -->
-				</div>
-				<!-- OFERTAS SECTION END-->
-				
-				
-				
-			</div>
-			<!--- END CONTENT -->
-			
-			
-			 <!-- START COMPANY BRAND LOGO  -->
-			<!-- END COMPANY BRAND LOGO -->
+</body>
 
-			
-		    <!-- START NEWSLETTER -->
-			<!-- END NEWSLETTER -->
-			
-			
-			
-			<!-- FOOTER SECTION START-->
-			<footer class="atf-footer-area atf-pattern-area">
-				<div class="container">
-					<div class="atf-footer-top mt-5">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-								<div class="atf-footer-box">
-									<h5><a href=""><img class="atf-footer-logo" src="assets/img/logo.png" alt="" /></a></h5>
-									<ul class="pr-lg-5">
-										<li>1 Grafton Street, Dublin, Ireland</li>
-										<li>(+222) 245 88 <br> (+258) 878 369</li>
-										<li>example@gmail.com</li>
-									</ul>
-								</div>
-							</div><!--- END COL -->
-							
-							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-								<h5>Quick Links</h5>
-								<ul class="atf-list-menu">
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Get Stared</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Our Team</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>About Us</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Need Helps</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Contact Us</a></li>
-								</ul>
-							</div><!--- END COL -->
-							
-							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-								<h5>Support Links</h5>
-								<ul class="atf-list-menu">
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Our Terms</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Our Service</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Privacy Policy</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Licenses</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Our News</a></li>
-								</ul>
-							</div><!--- END COL -->
-							
-							<div class="col-lg-4 col-md-6 col-12 atf-footer-link text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
-								<h5>Contact Us</h5>
-								<div class="atf-footer-con">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Maecenas gravida nulla.</p>
-								</div>
-								<h4 class="text-white mt-2">Follow Us</h4>
-								<div class="atf-footer-social-icon mt-3 text-left">
-									<a href="#" class="icon"> <i class="fab fa-facebook"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-dribbble"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-behance"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-linkedin"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-twitter"></i> </a>
-								</div>
-							</div><!--- END COL -->
-						</div><!--- END ROW -->
-					</div><!--- END SINGLE FOOTER -->
-				</div><!--- END CONTAINER -->
-					
-				<div class="atf-footer-boottom mt-4">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-5 col-xl-5 col-12 my-auto text-lg-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-								<p>&copy;Copyright - All Right Reserved.Designed <i class="fa fa-heart ml-1 mr-1"></i> by <a href="">Theme Family</a> </p>
-							</div><!--- END COL -->
-							
-							 <div class="col-lg-7 col-xl-7 col-12">
-								<div class="atf-payment-area text-lg-right my-auto mx-auto">
-									<ul>
-										<li><a href="#"><img src="assets/img/payment/1.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/2.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/3.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/1.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/2.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/3.png" alt="img"></a></li>
-									</ul>
-								</div>
-							</div><!--- END COL -->
-						</div><!--- END ROW -->
-					</div>
-				</div>
-				<!-- FOOTER SECTION END-->	
-			</footer><!--- END FOOTER -->
-		</div>
-		<!-- PAGE WRAPPER END-->
-		
-		<!-- Latest jQuery -->
-		<script src="assets/js/jquery-1.12.4.min.js"></script>
-		<!-- Latest compiled and minified Bootstrap -->
-		<script src="assets/bootstrap/js/bootstrap.js"></script>
-		<!-- modernizer JS -->		
-		<script src="assets/js/modernizr.custom.js"></script>	
-		<!-- magnific-popup js -->	
-		<script src="assets/js/jquery.magnific-popup.js"></script>			
-		<!-- stellar js -->
-		<script src="assets/js/jquery.stellar.min.js"></script>
-		<!-- slick js -->
-		<script src="assets/js/slick.js"></script>
-		<!-- countdown js -->
-		<script src="assets/js/jquery.countdown.js"></script>
-		<!-- wow js -->
-		<script src="assets/js/wow.min.js"></script>
-		<!-- ajaxchimp js -->
-		<script src="assets/js/ajaxchimp.min.js"></script>
-		<!-- form-contact js -->
-		<script src="assets/js/form-contact.js"></script>
-		<!-- main js -->
-		<script src="assets/js/main.js"></script>	
-		
-	</body>
 </html>
